@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "iamsauravsingh/python-app"
+        registry = "shubhamdockerrepo/python-app"
         registryCredential = 'dockerhub'
     }
 
